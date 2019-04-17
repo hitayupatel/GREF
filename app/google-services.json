@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "292524830875",
+    "firebase_url": "https://grefirebase2.firebaseio.com",
+    "project_id": "grefirebase2",
+    "storage_bucket": "grefirebase2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292524830875:android:894180228d622d5a",
+        "android_client_info": {
+          "package_name": "com.example.hitayu.gref11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292524830875-h1ndmsf9o9div4c393rful0ik4soq63h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hitayu.gref11",
+            "certificate_hash": "0752674f0737e32c51ee53adc276bc0564404f93"
+          }
+        },
+        {
+          "client_id": "292524830875-njp0dsaqv2qqh16hpn8k87p0h0anpdb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIONipo0cxseXlmYijNzSFuctaNOPrInQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292524830875-njp0dsaqv2qqh16hpn8k87p0h0anpdb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutListActionBar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/imageViewPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:contentDescription="@string/image_previous"
+        android:src="@drawable/ic_arrow_back_white_24dp"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/imageButtonList"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/ActionBarItemLeftPadding"
+        android:layout_marginRight="@dimen/ActionBarItemRightPadding"
+        android:background="@drawable/actionbar_button_state"
+        android:contentDescription="@string/button_list" />
+
+    <TextView
+        android:id="@+id/textViewListActionBarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageButtonList"
+        android:text="Flash Cards"
+        android:textColor="@color/font_color_action_bar"
+        android:textSize="@dimen/ActionBarFontSize"
+        android:typeface="normal" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imageButtonEdit"
+        android:paddingRight="@dimen/ActionBarItemRightPadding"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/imageButtonEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/ActionBarItemRightPadding"
+        android:layout_toLeftOf="@+id/imageButtonNewCardSet"
+        android:background="@drawable/actionbar_button_state"
+        android:contentDescription="@string/button_edit"
+        android:src="@drawable/ic_edit_white_24dp"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNewCardSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/ActionBarItemRightPadding"
+        android:layout_toLeftOf="@+id/imageButtonOverflow"
+        android:background="@drawable/actionbar_button_state"
+        android:contentDescription="@string/button_new_card_set"
+        android:src="@drawable/ic_add_white_36dp"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/imageButtonOverflow"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/ActionBarItemRightBorderPadding"
+        android:background="@drawable/actionbar_button_state"
+        android:contentDescription="@string/button_overflow"
+        android:src="@drawable/ic_action_overflow" />
+
+</RelativeLayout>
